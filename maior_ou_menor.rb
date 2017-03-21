@@ -13,3 +13,8 @@ chute = gets
 puts "Será que acertou? Você chutou " + chute
 puts 175 == chute.to_i
 puts "\n\n\n\n"
+if numero_secreto == chute.to_i
+    puts "Acertou!"
+else
+    puts "Errou!"
+end
