@@ -17,6 +17,7 @@ puts "\n\n\n\n"
 acertou = numero_secreto  == chute.to_i
 if acertou
     puts "Acertou!"
+    break
 else
     maior = numero_secreto > chute.to_i
     if maior
