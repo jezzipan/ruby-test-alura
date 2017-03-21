@@ -5,9 +5,16 @@ def da_boas_vindas
     puts "\n\n\n\n\n\n"
     puts "Começaremos o jogo para você, " + nome
 end
-
+def sorteia_numero_secreto
+    puts "Escolhendo um número secreto entre 0 e 200..."
+    numero_secreto = 175
+    puts "Escolhido... que tal adivinhar hoje nosso número secreto?"
+    return numero_secreto
+end
 
 da_boas_vindas
+sorteia_numero_secreto
+limite_de_tentativas = 7
 
 puts "Escolhendo um número secreto entre 0 e 200..."
 numero_secreto = 175
