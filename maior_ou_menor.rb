@@ -14,11 +14,10 @@ end
 def pede_um_numero(chutes, tentativa, limite_de_tentativas)
     puts "\n\n\n\n"
     puts "Tentativa " + tentativa.to_s + " de " + limite_de_tentativas.to_s
-    puts "Entre com o número"
     puts "Chutes até agora: " + chutes.to_s
+    puts "Entre com o número"
     chute = gets
     puts "Será que acertou? Você chutou " + chute
-    puts "Chutes até agora: " + chutes.to_s
     chute.to_i
 end
 def verifica_se_acertou(numero_secreto, chute)
